@@ -62,4 +62,6 @@ def adding_to_dennis
       :alan_kay => {:known_for => "Object Orientation", :languages => ["Smalltalk", "LISP"]},
       :dennis_ritchie => {:known_for => "Unix", :languages => ["C"]}
     }
+    programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+    return programmer_hash
 end
